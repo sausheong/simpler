@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simpler settings</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="container py-4">
+  <h1 class="mb-2">Simpler settings</h1>
+  <div class="fs-4 text pb-2">Set the level of simplicity you would like.</div>
+  <form id="settingsForm" class="mb-3">
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="option" id="L1" value="L1">
+        <label class="form-check-label" for="preSchool">
+          Level 1 - 190L (grade 1 - 2)
+        </label>
+      </div>    
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="option" id="L2" value="L2">
+      <label class="form-check-label" for="primarySchool">
+        Level 2 - 520L (grade 3 - 4)
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="option" id="L3" value="L3">
+      <label class="form-check-label" for="L3">
+        Level 3 - 830L (grade 5 - 6)
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="option" id="L4" value="L4">
+      <label class="form-check-label" for="L4">
+        Level 4 - 970L (grade 7 - 8)
+      </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="option" id="L5" value="L5">
+        <label class="form-check-label" for="L5">
+          Level 5 - 1150L (grade 9 - 10)
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="option" id="L6" value="L6">
+        <label class="form-check-label" for="L6">
+          Level 6 - 1185L (grade 11 - 12)
+        </label>
+    </div>
+  
+    <button type="submit" class="btn btn-primary mt-3">Save Settings</button>
+  </form>
+  <div>
+    The ranges and Lexile numbers are based on from research from 
+    <a href="https://lexile.com/educators/measuring-growth-with-lexile/college-and-career-readiness/">
+        https://lexile.com/educators/measuring-growth-with-lexile/college-and-career-readiness
+    </a>
+  </div>
+</body>
+<script src="settings.js"></script>
+</html>
+
